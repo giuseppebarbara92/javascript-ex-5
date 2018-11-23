@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 32px;
+  color: white;
+
+  font-family: helvetica;
+}
+
+body{
+  background: grey;
+}
+.wrapper{
+height: 100vh;
+width: 800px;
+background: orange;
+margin: auto;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+
+}
+
+.nomi{
+height: 400px;
+width: 400px;
+background: blue;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  text-align: left;
+}
+
+.cognomi{
+height: 400px;
+width: 400px;
+background: red;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  text-align: left;
+}
